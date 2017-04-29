@@ -1,0 +1,478 @@
+//宽高100%
+.wh100 {
+  width: 100%;
+  height: 100%;
+}
+
+//绝对定位居中
+.poa {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+//a标签样式清除
+.tan {
+  text-decoration: none;
+}
+
+//左浮动
+.fl() {
+  float: left;
+}
+
+;
+//顶部外边距
+.mt(@mt) {
+  margin-top: @mt;
+}
+
+//左边外边距
+.ml(@ml) {
+  margin-left: @ml;
+}
+
+//右边外边距
+.mr(@mr) {
+  margin-right: @mr;
+}
+
+//底部外边距
+.mb(@mb) {
+  margin-bottom: @mb;
+}
+
+//行高
+.lh(@lineHeight) {
+  line-height: @lineHeight;
+}
+
+//边框
+.br(@radius:50%) {
+  border-radius: @radius;
+}
+
+//宽度
+.w(@width) {
+  width: @width;
+}
+
+//高度
+.h(@height) {
+  height: @height;
+}
+
+//字体
+.fs(@fontSize) {
+  font-size: @fontSize;
+}
+
+//zIndex
+.zi(@zIndex) {
+  z-index: @zIndex;
+}
+
+//tac字体居中
+.tac(@center:center) {
+  text-align: @center;
+}
+
+//字体白色
+@whiteColor: white;
+//字体黑色
+@blackColor: black;
+//背景颜色
+.bg(@bgColor) {
+  background-color: @bgColor;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  .wh100;
+  overflow: hidden;
+  background: url("../images/bg.jpg");
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+a, a:hover {
+  .tan;
+}
+
+
+
+//每一页的容器宽高
+.swiper-container {
+  .wh100;
+}
+
+//基本定位
+.logo, .me, .know1, .know2, .more, .read, .thanks, .nav1, .logo1, .nav2, .about-title, .btn-me, .sorry, .about-title, .about, #box, .der, .pic {
+  .poa;
+}
+
+/****************************第一页****************************/
+//第一页背景颜色
+.bg1 {
+  .bg(#4dd0e1);
+}
+
+//头像logo
+.bg1 .logo {
+  opacity: 0.7;
+  .w(140px);
+  .h(140px);
+  background: url("../images/me.jpg") no-repeat ;
+  background-position: 10px 0;
+  background-size: 140px 140px;
+  .bg(#bac3c6);
+  .br();
+  .mt(-360px);
+  .ml(-70px);
+}
+
+//你好,介绍
+.bg1 .me {
+  .mt(-200px);
+  .fs(32px);
+  font-weight: bold;
+  font-family: '微软雅黑';
+  .ml(-114px);
+}
+
+//欢迎阅读
+.bg1 .read {
+  .mt(-150px);
+  .fs(20px);
+  .ml(-94px);
+}
+
+//练习作品
+.bg1 .know1 {
+  .mt(-110px);
+  .fs(20px);
+  .ml(-38px);
+}
+
+//项目作品
+.bg1 .know2 {
+  .mt(-80px);
+  .fs(20px);
+  .ml(-38px);
+}
+
+//了解更多
+.bg1 .more {
+  .zi(3000);
+  .mt(-40px);
+  .ml(-68px);
+}
+
+//谢谢阅读
+.bg1 .thanks {
+  .w(840px);
+  .h(85px);
+  .fs(60px);
+  .mt(35px);
+  .ml(-420px);
+}
+
+//抱歉
+.sorry {
+  .w(700px);
+  .h(85px);
+  .fs(30px);
+  .mt(132px);
+  .ml(-350px);
+  .tac();
+}
+
+//模态框字体大小
+.modal-body p {
+  .fs(24px);
+  font-size: 24px;
+}
+
+//模态框的背景颜色
+.modal-content {
+  .bg(skyblue);
+}
+
+/**********************第二页*********************/
+//第二页背景
+.bg2 {
+  .bg(#22c3aa);
+}
+
+//比较擅长,还算擅长(标题)
+.bg2 .logo, .bg2 .logo1 {
+  color: @whiteColor;
+  .w(150px);
+  .h(80px);
+  .ml(-75px);
+}
+
+.bg2 .logo {
+  .mt(-300px);
+}
+
+.bg2 .logo1 {
+  .mt(-80px);
+}
+
+//比较擅长内容 还算擅长盒子
+.bg2 .nav1, .bg2 .nav2 {
+  .w(500px);
+  .h(500px);
+  .ml(-240px);
+}
+
+.bg2 .nav1 {
+  .mt(-240px);
+}
+
+.bg2 .nav2 {
+  .mt(-30px);
+}
+
+//比较擅长内容 还算擅长具体内容
+.bg2 .nav1 li, .bg2 .nav2 li {
+  .w(150px);
+  .h(30px);
+  .tac();
+  .fs(20px);
+  .bg(#36ddc4);
+  .lh(30px);
+  .mr(10px);
+  .mb(20px);
+  .br(10px);
+  .fl();
+}
+
+//具体内容的字体颜色
+.bg2 .nav1 li a, .bg2 .nav2 li a {
+  color: @whiteColor;
+}
+
+/**********************第三页*************************/
+//第三页背景颜色
+.bg3 {
+  .bg(deepskyblue);
+}
+
+//标题头
+.bg3 .about-title {
+  .w(300px);
+  .h(200px);
+  .ml(-150px);
+  .mt(-320px);
+}
+
+//点击惊喜
+.btn-me {
+  .ml(-90px);
+  .mt(-260px);
+  .zi(500);
+}
+
+//内容
+.about {
+  .w(1100px);
+  .h(400px);
+  .ml(-550px);
+  .mt(-200px);
+  .zi(200);
+  .fs(18px);
+  text-indent: 2em;
+  .lh(30px);
+}
+
+/*************************第四页******************************/
+//第四页背景颜色
+.bg4 {
+  .bg(#4dd0e1);
+}
+
+//包着图片盒子
+#box {
+  .w(800px);
+  .h(500px);
+  .ml(-450px);
+  .mt(-320px);
+}
+
+//ul宽高
+#oUl {
+  .wh100;
+}
+
+//里面的li
+#box #oUl li {
+  .h(370px);
+  position: absolute;
+}
+
+//li里面图片
+#oUl li img {
+  .wh100;
+}
+
+//左右控制按钮
+span {
+  .w(126px);
+  .h(164px);
+  .zi(3000);
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+span:hover {
+  cursor: pointer;
+}
+
+#ctr #left {
+  background: url("../images/prev.png") no-repeat;
+  background-size: 126px 164px;
+  left: 5px;
+}
+
+#ctr #right {
+  background: url("../images/next.png") no-repeat;
+  background-size: 126px 164px;
+  right: 5px;
+}
+
+//描述
+.der {
+  .w(900px);
+  .h(150px);
+  .zi(6000);
+  .ml(-400px);
+  .mt(240px);
+  .fs(22px);
+  .tac(left);
+  color: @blackColor;
+  text-indent: 2em;
+}
+
+//标题
+.pic {
+  .w(600px);
+  .h(64px);
+  .ml(-300px);
+  .mt(-370px);
+  .zi(500);
+  .fs(64px);
+  color: @blackColor;
+  font-size: 64px;
+  .tac();
+}
+/***************第五页内容********************/
+//第五页背景颜色
+.bg5 {
+  .bg(black);
+}
+//滑动出现小球
+#box1{
+  .wh100;
+  .bg(black);
+  position: absolute;
+  .zi(1000);
+}
+//内容
+.right {
+  .w(750px);
+  position: absolute;
+  left: 50%;
+  .ml(-350px);
+  .zi(1200);
+  .h(100%);
+  .fs(18px);
+  .lh(28px);
+  color: @whiteColor;
+  font-family: '微软雅黑';
+}
+//滑动惊喜
+.move,.move1{
+  position: absolute;
+  top: 20px;
+  .zi(2000);
+  .fs(20px);
+  color: @whiteColor;
+  font-weight: bold;
+  .w(200px);
+}
+.move{
+  left:100px ;
+}
+.move1{
+  right: 3%;
+}
+/***********************全局样式**********************/
+//画布
+#canvas {
+  .zi(100);
+  .ml(-262px);
+  position: absolute;
+  left: 50%;
+  bottom: -15px;
+}
+//星星
+.star{
+  .w(30px);
+  .h(30px);
+  .zi(2500);
+  background:url("../images/star.png") no-repeat ;
+  background-size: 30px 30px;
+  position: absolute;
+  animation: flash 5s  alternate infinite;
+  transition: all 2s;
+}
+//星星特效
+@keyframes flash {
+  0%{
+    opacity: 0;
+  }100%{
+     opacity: 1;
+   }
+}
+//移入星星特效
+.star:hover{
+  transform: scale(3, 3) rotate(180deg) !important;
+  transition: all 2s;
+}
+//底部滚动图案
+.scroll{
+  .w(29px);
+  .h(31px);
+  .ml(-14px);
+  .zi(1000);
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  background: url("../images/scroll.png");
+  animation: upAndDown 1s infinite alternate;
+}
+//滚动图案动画
+@keyframes upAndDown {
+  0%{
+    transform: translateY(0);
+  }
+  100%{
+    transform: translateY(-15px);
+  }
+}
+
+
+
+
+
+
+

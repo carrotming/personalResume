@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/swiper-3.3.1.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/index.min.css">
+</head>
+<body>
+<!--canvas画布-->
+<canvas id="canvas" style="; display: block;"></canvas>
+<!--每一页的内容-->
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide bg1">
+            <div class="ani logo" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
+                 swiper-animate-delay="0.3s"></div>
+            <div class="ani me" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
+                 swiper-animate-delay="0.6s">你好!我叫劳柏明
+            </div>
+            <div class="ani read" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
+                 swiper-animate-delay="0.9s">欢迎阅读我的个人简历
+            </div>
+            <a href="javascript:;" class="ani know1" swiper-animate-effect="fadeInUp" swiper-animate-duration="1.2s"
+               swiper-animate-delay="0.3s">练习作品</a>
+            <a href="javascript:;" class="ani know2" swiper-animate-effect="fadeInUp" swiper-animate-duration="1.5s"
+               swiper-animate-delay="0.3s">项目作品</a>
+            <button type="button" class="ani more btn-primary btn-lg" swiper-animate-effect="fadeInUp"
+                    swiper-animate-duration="1.9s" swiper-animate-delay="0.3s" data-toggle="modal"
+                    data-target="#myModal">点击了解更多
+            </button>
+
+            <div class="ani thanks" swiper-animate-effect="bounceInDown" swiper-animate-duration="1s"
+                 swiper-animate-delay="2s">谢谢你在百忙之中打开我的简历
+            </div>
+
+            <div class="ani sorry" swiper-animate-effect="zoomInDown" swiper-animate-duration="2s"
+                 swiper-animate-delay="3s">如果你的页面显示不好,请原谅我兼容处理做得不好!.
+                <br>
+                请使用分辨率高点的和高级版本浏览器
+            </div>
+        </div>
+
+        <div class="swiper-slide bg2">
+            <h1 href="javascript:;" class="ani logo" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
+                swiper-animate-delay="0.3s">比较擅长</h1>
+            <ul class="nav1">
+                <li class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
+                    swiper-animate-delay="0.3s"><a href="javascript:;">HTML</a></li>
+                <li class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                    swiper-animate-delay="0.3s"><a href="javascript:;">CSS</a></li>
+                <li class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1.5s"
+                    swiper-animate-delay="0.3s"><a href="javascript:;">js</a></li>
+                <li class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="1.5s"
+                    swiper-animate-delay="0.3s"><a href="javascript:;">jquery</a></li>
+                <li class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="1.5s"
+                    swiper-animate-delay="0.3s"><a href="javascript:;">Bootstrap</a></li>
+                <li class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="1.5s"
+                    swiper-animate-delay="0.3s"><a href="javascript:;">fireworks</a></li>
+                <li class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1.5s"
+                    swiper-animate-delay="0.3s"><a href="javascript:;">git</a></li>
+                <li class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1.5s"
+                    swiper-animate-delay="0.3s"><a href="javascript:;">移动web开发</a></li>
+                <li class="ani" swiper-animate-effect="flipInX" swiper-animate-duration="1.5s"
+                    swiper-animate-delay="0.3s"><a href="javascript:;">zepto</a></li>
+            </ul>
+
+            <h1 href="javascript:;" class="ani logo1" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
+                swiper-animate-delay="0.3s">还算擅长</h1>
+
+            <ul class="nav2">
+                <li class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s"
+                    swiper-animate-delay="0.3s"><a href="javascript:;">node.js</a></li>
+                <li class="ani" swiper-animate-effect="zoomInRight" swiper-animate-duration="1s"
+                    swiper-animate-delay="0.3s"><a href="javascript:;">vue.js</a></li>
+                <li class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1.5s"
+                    swiper-animate-delay="0.3s"><a href="javascript:;">angular</a></li>
+                <li class="ani" swiper-animate-effect="rollIn" swiper-animate-duration="1.5s"
+                    swiper-animate-delay="0.3s"><a href="javascript:;">swiper</a></li>
+                <li class="ani" swiper-animate-effect="zoomInDown" swiper-animate-duration="1.5s"
+                    swiper-animate-delay="0.3s"><a href="javascript:;">HTML5</a></li>
+                <li class="ani" swiper-animate-effect="rotateInDownLeft" swiper-animate-duration="1.5s"
+                    swiper-animate-delay="0.3s"><a href="javascript:;">CSS3</a></li>
+                <li class="ani" swiper-animate-effect="slideInDown" swiper-animate-duration="1.5s"
+                    swiper-animate-delay="0.3s"><a href="javascript:;">canvas</a></li>
+                <li class="ani" swiper-animate-effect="fadeInUpBig" swiper-animate-duration="1.5s"
+                    swiper-animate-delay="0.3s"><a href="javascript:;">Animated.css</a></li>
+                <li class="ani" swiper-animate-effect=" flipInY" swiper-animate-duration="1.5s"
+                    swiper-animate-delay="0.3s"><a href="javascript:;">react native</a></li>
+                <li class="ani" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="1.5s"
+                    swiper-animate-delay="0.3s"><a href="javascript:;">Webpack</a></li>
+                <li class="ani" swiper-animate-effect="rotateInDownRight" swiper-animate-duration="1.5s"
+                    swiper-animate-delay="0.3s"><a href="javascript:;">less</a></li>
+                <li class="ani" swiper-animate-effect="zoomInRight" swiper-animate-duration="1.5s"
+                    swiper-animate-delay="0.3s"><a href="javascript:;">模块化思想</a></li>
+            </ul>
+
+        </div>
+        <div class="swiper-slide bg3">
+            <button class="ani btn-me btn-lg btn-primary" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                    swiper-animate-delay="0.3s">点击我有惊喜喔
+            </button>
+            <h1 class="ani about-title" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                swiper-animate-delay="0.3s">欢迎来到我的世界</h1>
+            <div class="about ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                 swiper-animate-delay="0.3s">
+
+            </div>
+        </div>
+
+        <div class="swiper-slide bg4">
+            <div class="pic ani" swiper-animate-effect="zoomInLeft" swiper-animate-duration="1s"
+                 swiper-animate-delay="1s">我可爱的队友!
+            </div>
+            <div class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s" swiper-animate-delay="0.3s"
+                 id="box">
+                <ul id="oUl">
+                    <li><img src="images/1.jpg" alt=""/></li>
+                    <li><img src="images/2.jpg" alt=""/></li>
+                    <li><img src="images/7.jpg" alt=""/></li>
+                    <li><img src="images/5.jpg" alt=""/></li>
+                    <li><img src="images/6.jpg" alt=""/></li>
+                    <li><img src="images/3.jpg" alt=""/></li>
+                </ul>
+
+                <div class="der ani" swiper-animate-effect="bounceIn" swiper-animate-duration="1.5s"
+                     swiper-animate-delay="1s">
+                    我的好队友,陪伴我度过了三年时光,这是一个充满活力的团队,这是一个永不言败的团队,我在团队里学会了如何互相帮助,如何一起度过困难,我们一起训练,我们一起吃饭,我们创造许多许多的奇迹.因为我的队友,我才能拿到冠军,没有队友的鼓励,假如只有我一个人孤军奋战,那我肯定坚持不久,谢谢我的同伴.在这个团队里,我不仅学会了打网球,我收获更多是一种叫作团队的力量,它让我们很开心,它让我们都得到成长,因为有了它,才可以创造无限可能!无论在哪里,团队对我来说都是值得我珍惜的!
+                </div>
+
+                <div id="ctr">
+                    <span id="left"></span>
+                    <span id="right"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-slide bg5">
+
+            <div class="move ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                 swiper-animate-delay="0.5s">鼠标移动有惊喜喔↓↓↓
+            </div>
+
+            <div class="move1 ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                 swiper-animate-delay="0.5s">鼠标移动有惊喜喔↓↓↓
+            </div>
+
+            <div class="left " id="box1">
+
+            </div>
+
+            <div class="right">
+
+                <h1 class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                    swiper-animate-delay="0.5s" style="text-align: center">
+                    个人简历制作介绍!
+                </h1>
+                <p class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                   swiper-animate-delay="1s">
+                    使用到的技术:css3,canvas,Bootstrap,swiper,jquery,面向对象思想,git,Animated.css,less!
+                </p>
+                <p class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                   swiper-animate-delay="1s">
+                    遇到的难点
+                    ①:canvas时钟制作
+                    ②:各种技术的运用
+                    ③:代码优化
+                </p>
+                <p class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                   swiper-animate-delay="1s">
+                    canvas时钟解决:除了一些基本的逻辑以外,最难的是如何让时间跳动和小球跟着出来,这里需要用到一个二维点阵数组,共有9组,分别对应时间0到9,每一组有7个分别用来控制小球,外层对应时间,内层对应小球.里面设置0和1,假设1的位置为小球,0的位置是空白的.这样我们可以根据对应的时分秒,从而制作出小球.另外,想让小球遇动起来,只要判断当前时间和上一次时间,如果不相等就让小球出来并且移动.总体思路大概是这样!
+                </p>
+
+                <p class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                   swiper-animate-delay="1s">
+                    各种技术的运用:这份简历我用了几个框架,有Bootstrap,swiper,jquery,Animated,css3,这里非常考验如何搭配使用各种框架,来展现不同效果,而我主要是查看官方文档一步步完成的,里面的逻辑问题其实不多,所以认真理解其中的原理,跟着官方文档的话,是很快解决了.这里还用到CSS3,主要是一些CSS3的属性,也是需要理解各种用法才能展现更好的效果!
+                </p>
+
+                <p class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                   swiper-animate-delay="1s">
+                    代码优化:刚开始写这份个人简历的时候,代码行数达到了1500行,所以重构就显得很重要,所以我用less来重写了css的代码,来压缩代码的行数,js部分我尽量使用最简单的方法来实现各种效果,比如利用面向对象的思想来实现代码的复用.
+                    最后代码行数缩减到1000行左右.效果还是不错.
+                </p>
+                <h1 class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                    swiper-animate-delay="1.5s" style="text-align: center">
+                    个人感受
+                </h1>
+
+                <p class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                   swiper-animate-delay="2s">
+                    当把整一份简历做完之后自己是比较开心的,当然,我知道当中有许多的不足还需要我去加强,我也知道这份简历其实难度不大,但是通过自己的努力,去完成这样一份简历,对我来说已经又是一种进步.认真的把一份简历呈现到你的面前,我希望把我最真诚的态度给你看到,即时我千言万语,我更愿意用这种方式吸引你的目光,因为我是前端工程师,当然不能仅仅用一个毫无生气的白板简历.非常感谢阅读我简历的所有人!希望我的这份作品能让你留下印象,也希望我的简历能打动你!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="swiper-pagination"></div>
+
+    <div id="starMove"></div>
+
+    <div class="scroll"></div>
+
+</div>
+<!--模态框-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h1 class="modal-title" id="myModalLabel">个人简历</h1>
+            </div>
+            <div class="modal-body">
+                <p class="">姓名:劳柏明</p>
+                <p class="">年龄:24</p>
+                <p class="">工作经验:1年半</p>
+                <p class="">应聘职位:前端工程师</p>
+                <p class="">联系电话:13702530609</p>
+                <p class="">QQ:704664846</p>
+                <p class="">微信号:carrotming</p>
+                <p class="">邮箱:7046648468@qq.com</p>
+                <p class="">个人博客地址:
+                    <a href="http://carrotming.cn/" target="_blank">carrotming.cn</a>
+                </p>
+                <p class="">爱好:网球,羽毛球,乒乓球,电影,音乐</p>
+                <p class="">态度:学习使我快乐,前端使我更快乐!</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">关闭</button>
+                <button type="button" class="btn btn-primary">联系我啦!</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/swiper-3.3.1.min.js"></script>
+<script src="js/swiper.animate1.0.2.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/Underscore-min.js"></script>
+<script src="js/swiperInit.js"></script>
+<script src="js/draw.js"></script>
+<script src="js/myTool.js"></script>
+<script src="js/control.js"></script>
+<script src="js/picChange.js"></script>
+<script src="js/strChange.js"></script>
+<script src="js/moveBall.js"></script>
+<script src="js/star.js"></script>
+
+
+
+
+</body>
+</html>

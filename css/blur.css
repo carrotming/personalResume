@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*
+大盒子定位
+*/
+#blur-div{
+    margin: 300px auto;
+    position: relative;
+}
+/*
+图片
+*/
+#blur-image{
+    display: block;
+    /*css3  blur模糊效果 */
+    filter:blur(30px);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
+/*
+画布
+*/
+#canvas1{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    /*background: red;*/
+}
+/*
+按钮
+*/
+.button{
+    display: block;
+    position: absolute;
+    z-index: 200;
+    width: 100px;
+    height: 30px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+}
+/*
+随机按钮的位置
+*/
+#random{
+    left: 200px;
+    bottom: -25px;
+    background: #058;
+}
+#random:hover{
+    background: #047;
+}
+/*
+展示按钮的位置
+*/
+#show{
+    right: 200px;
+    bottom: -25px;
+    background: #085;
+}
+#show:hover{
+    background: #074;
+}
+
