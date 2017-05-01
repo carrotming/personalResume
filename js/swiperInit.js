@@ -3,7 +3,11 @@
         new Swiper('.swiper-container', {
             mousewheelControl: true,
             direction: 'vertical',
-            effect: 'cube',
+            // effect: 'cube',
+            flip: {
+                slideShadows : true,
+                limitRotation : true,
+            },
             onInit: function (swiper) {
                 swiperAnimateCache(swiper);
                 swiperAnimate(swiper);
