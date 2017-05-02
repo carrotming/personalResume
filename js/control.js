@@ -31,9 +31,13 @@ if($windowW<=1550&&$windowH<=900){
     $('#canvas').css({
         bottom: '-20px'
     })
-    $(' .modal-body p').css({
+    $('#myModal .modal-body p').css({
         fontSize:'18px',
     })
+    $('#practice .modal-body p').css({
+        fontSize:'16px',
+    })
+
     $('#box').css({
         marginTop:'-300px',
     })
@@ -87,9 +91,15 @@ if($windowW<=1550&&$windowH<=900){
     $('#myModal').css({
         marginTop:'126px',
     });
+    $('#practice').css({
+        marginTop:'120px',
+    });
 
-    $(' .modal-body p').css({
+    $('#myModal .modal-body p').css({
         fontSize:'22px',
+    })
+    $('#practice .modal-body p').css({
+        fontSize:'20px',
     })
     $('.about-title').css({
         fontSize:'36px',

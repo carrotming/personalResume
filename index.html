@@ -27,7 +27,7 @@
                  swiper-animate-delay="0.9s">欢迎阅读我的个人简历
             </div>
             <a href="javascript:;" class="ani know1" swiper-animate-effect="fadeInUp" swiper-animate-duration="1.2s"
-               swiper-animate-delay="0.3s">练习作品</a>
+               swiper-animate-delay="0.3s" data-toggle="modal" data-target="#practice">练习作品</a>
             <a href="javascript:;" class="ani know2" swiper-animate-effect="fadeInUp" swiper-animate-duration="1.5s"
                swiper-animate-delay="0.3s">项目作品</a>
             <button type="button" class="ani more btn-primary btn-lg" swiper-animate-effect="fadeInUp"
@@ -206,7 +206,7 @@
     <div class="scroll"></div>
 
 </div>
-<!--模态框-->
+<!--详情模态框-->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -223,12 +223,12 @@
                 <p class="">联系电话:13702530609</p>
                 <p class="">QQ:704664846</p>
                 <p class="">微信号:carrotming</p>
-                <p class="">邮箱:7046648468@qq.com</p>
+                <p class="">邮箱:704664846@qq.com</p>
+                <p class="">爱好:网球,羽毛球,乒乓球,电影,音乐</p>
+                <p class="">态度:学习使我快乐,前端使我更快乐!</p>
                 <p class="">个人博客地址:
                     <a href="http://carrotming.cn/" target="_blank">carrotming.cn</a>
                 </p>
-                <p class="">爱好:网球,羽毛球,乒乓球,电影,音乐</p>
-                <p class="">态度:学习使我快乐,前端使我更快乐!</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-primary" data-dismiss="modal">关闭</button>
@@ -237,6 +237,44 @@
         </div>
     </div>
 </div>
+<!--个人练习-->
+<div class="modal fade" id="practice" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h2 class="modal-title" id="myModalLabel2">个人练习作品</h2>
+            </div>
+            <div class="modal-body fs" style="padding-right: 50px;">
+                <p class=""><a href="http://carrotming.cn/stupidBird/.">笨鸟飞游戏</a></p>
+                <p class="pull-right"><a href="http://carrotming.cn/MJD/">模仿京东M站</a></p>
+                <p class=""><a href="http://carrotming.cn/comment/">备忘录功能</a></p>
+                <p class="pull-right"><a href="http://carrotming.cn/pieChart/">canvas饼状图</a></p>
+                <p class=""><a href="http://carrotming.cn/rotate/">canvas围绕旋转</a></p>
+                <p class="pull-right"><a href="http://carrotming.cn/Countdown/">canvas倒计时效果</a></p>
+                <p class=""><a href="http://carrotming.cn/magnifying-glass/">canvas放大镜效果</a></p>
+                <p class="pull-right"><a href="http://carrotming.cn/pictureCool/.">canvas滤镜效果</a></p>
+                <p class=""><a href="http://carrotming.cn/QQbrowser/">css3QQ浏览器</a></p>
+                <p class="pull-right"><a href="http://carrotming.cn/gorgeousBall/">滑动绚丽小球</a></p>
+                <p class=""><a href="http://carrotming.cn/Banner/">轮播图切换</a></p>
+                <p class="pull-right"><a href="http://carrotming.cn/Pinterest/">瀑布流效果</a></p>
+                <p class=""><a href="http://carrotming.cn/greenFood/.">基础布局绿色食品网</a></p>
+                <p class="pull-right"><a href="http://carrotming.cn/vocal-concert/.">css3张学友演唱会</a></p>
+                <p class=""><a href="http://carrotming.cn/BootstrapWeb/">Bootstrap应用布局</a></p>
+                <p class="">所有练习作品都可以在我的博客上看到!</p>
+                <p  class="">个人博客地址:
+                    <a href="http://carrotming.cn/" target="_blank">carrotming.cn</a>
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">关闭</button>
+                <button type="button" class="btn btn-primary">联系我啦!</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <script src="js/jquery.js"></script>
 <script src="js/swiper-3.3.1.min.js"></script>
