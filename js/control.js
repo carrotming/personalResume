@@ -38,6 +38,7 @@ if($windowW<=1550&&$windowH<=900){
         fontSize:'16px',
     })
 
+
     $('#box').css({
         marginTop:'-300px',
     })
@@ -94,6 +95,9 @@ if($windowW<=1550&&$windowH<=900){
     $('#practice').css({
         marginTop:'120px',
     });
+    $('#item').css({
+        marginTop:'120px',
+    })
 
     $('#myModal .modal-body p').css({
         fontSize:'22px',
