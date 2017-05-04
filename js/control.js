@@ -16,6 +16,10 @@ if($windowW<=1550&&$windowH<=900){
     $('.bg1 .know2').css({
         marginTop:'-60px',
     })
+    $('.bg1 .load').css({
+        marginTop:'-14px',
+        marginLeft:'-200px'
+    })
     $('.bg1 .more').css({
         marginTop:'-20px',
     })
@@ -71,6 +75,9 @@ if($windowW<=1550&&$windowH<=900){
     })
     $('.bg1 .know2').css({
         marginTop:'-60px',
+    })
+    $('.bg1 .load').css({
+        marginTop:'44px',
     })
     $('.bg1 .more').css({
         marginTop:'-20px',

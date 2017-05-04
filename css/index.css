@@ -40,6 +40,7 @@ a:hover {
 .know2,
 .more,
 .read,
+.load,
 .thanks,
 .nav1,
 .logo1,
@@ -98,6 +99,11 @@ a:hover {
   z-index: 3000;
   margin-top: -40px;
   margin-left: -68px;
+}
+.bg1 .load {
+  margin-top: 44px;
+  font-size: 26px;
+  margin-left: -44px;
 }
 .bg1 .thanks {
   width: 840px;
