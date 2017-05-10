@@ -95,7 +95,6 @@ if($windowW<=1550&&$windowH<=900){
     $('#canvas').css({
         bottom: '-60px'
     })
-
     $('#myModal').css({
         marginTop:'126px',
     });
